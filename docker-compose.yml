@@ -7,4 +7,5 @@ services:
     ports:
       - 4000:4000
     working_dir: /home/node/app
-    command: bash -c "yarn add better-npm-run && yarn dev"
+    entrypoint: docker-entrypoint.sh
+    command: "yarn dev"
