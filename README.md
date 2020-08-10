@@ -41,3 +41,25 @@ an example of a fully configured implementation for a specific domain.
 ## Releasing
 
 To mark a version as 'stable', run `yarn run util:markStable`.
+
+## Run as a docker service
+
+1. Build the image:
+
+```bash
+docker-compose build --no-cache
+```
+
+2. Start the service:
+
+```bash
+docker-compose up -d
+```
+
+Goto <http://localhost:4000>
+
+3. Stop the service:
+
+```bash
+docker-compose down
+```
