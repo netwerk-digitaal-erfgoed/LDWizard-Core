@@ -53,8 +53,10 @@ docker-compose build --no-cache
 2. Start the service:
 
 ```bash
-docker-compose up -d
+docker-compose up
 ```
+
+TODO: make the "-d" option work...
 
 Goto <http://localhost:4000>
 
