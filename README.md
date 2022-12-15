@@ -1,3 +1,5 @@
+# ⚠️ This repository is superseded by https://github.com/pldn/LDWizard
+
 <img src="https://github.com/netwerk-digitaal-erfgoed/LDWizard-HelloWorld/raw/master/img/LDWizard-square.png" align="right" height="150">
 
 # LD Wizard Core
